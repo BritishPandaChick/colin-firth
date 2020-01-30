@@ -1,0 +1,134 @@
+/* Basic Styles */
+body {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+/* Grid System */
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/* Header */
+header {
+  height: 150px;
+  background-color:	#191970;
+}
+
+header .full-width {
+  padding: 20px 0;
+}
+
+header h1 {
+  font-family: 'Roboto Slab';
+  font-size: 52px;
+  color: #ADD8E6;
+}
+
+header a:hover {
+  color: #FFFFFF;
+}
+
+header nav {
+  float: right;
+  padding: 40px 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 7px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #ADD8E6;
+}
+
+/* Colin */
+#colin {
+  height: 500px;
+}
+
+#colin h2 {
+  color: #191970;
+  font-size: 42px;
+  font-family: 'Roboto Slab';
+}
+
+#colin p {
+  font-size: 20px;
+}
+
+#colin img {
+  height: 400px;
+  margin-left: 320px;
+}
+
+#colin .caption {
+  font-size: 15px;
+  font-family: 'Roboto';
+  padding-top: 10px;
+}
+
+/* Latest News */
+#latest-news {
+  height: 500px;
+}
+
+#latest-news .full-width {
+  padding: 50px 0;
+}
+
+#latest-news .third-width {
+  margin-left: 50px;
+  padding-top: 20px;
+}
+
+#latest-news h3 {
+  font-family: 'Roboto Slab';
+  font-size: 32px;
+  color: #191970;
+}
+
+#latest-news h4 {
+  font-family: 'Roboto Slab';
+  font-size: 22px;
+  color: #191970;
+}
+
+/* Movies */
+#movies {
+  height: 300px;
+}
+
+#movies iframe {
+  width: 560px;
+  height: 315px;
+}
+
+#movies h3 {
+  font-family: 'Roboto Slab';
+  font-size: 32px;
+  color: #191970;
+}
+
+/* Footer */
+footer {
+  height: 50px;
+  background-color:#191970;
+  font-size: 15px;
+  color: #ADD8E6;
+}
